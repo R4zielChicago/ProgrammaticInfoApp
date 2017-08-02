@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="16dp">
+
+    <LinearLayout
+        android:id="@+id/ad_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center_horizontal">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:translationZ="0dp"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_unit_id"
+            >
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:elevation="16dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/container_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.tc2r.tinderhelptest.Activities.MainActivity">
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="25dp"
+                android:paddingLeft="15dp"
+                android:text="@string/MainTitle"
+                android:textColor="@android:color/black"
+                android:textSize="50sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/guide_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/title_tv"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="15dp"
+                android:text="Guide"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/mainimage_iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/guide_tv"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:elevation="17dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/mainactivity_image"/>
+
+            <TextView
+                android:id="@+id/categories_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mainimage_iv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="10dp"
+                android:text="Categories"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

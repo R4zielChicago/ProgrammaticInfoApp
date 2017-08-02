@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "831607636169",
+    "firebase_url": "https://tinderhelptest.firebaseio.com",
+    "project_id": "tinderhelptest",
+    "storage_bucket": "tinderhelptest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831607636169:android:527def76ac18c905",
+        "android_client_info": {
+          "package_name": "com.example.tc2r.tinderhelptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831607636169-bkfhkn800505o92u7lbsr2jgaua597vo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tc2r.tinderhelptest",
+            "certificate_hash": "aba676faf519ca8d7a1878127c1d73aef203be13"
+          }
+        },
+        {
+          "client_id": "831607636169-njn85r5qh34t40vohls3p31khttcvl2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvxGp6V7S7z3kK4DHCMjs_PVNZjSPVqRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831607636169-njn85r5qh34t40vohls3p31khttcvl2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831607636169:android:099ab3eea52144d0",
+        "android_client_info": {
+          "package_name": "com.tc2r.newFlavor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831607636169-imil4pfaf09pamfsco4boafn8h7daf8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tc2r.newFlavor",
+            "certificate_hash": "aba676faf519ca8d7a1878127c1d73aef203be13"
+          }
+        },
+        {
+          "client_id": "831607636169-njn85r5qh34t40vohls3p31khttcvl2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvxGp6V7S7z3kK4DHCMjs_PVNZjSPVqRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831607636169-njn85r5qh34t40vohls3p31khttcvl2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831607636169:android:eb1f3a71d5b248e8",
+        "android_client_info": {
+          "package_name": "com.tc2r.sportsGuide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831607636169-4c405qv377512ac2qaa4k0mkhrlplk8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tc2r.sportsGuide",
+            "certificate_hash": "aba676faf519ca8d7a1878127c1d73aef203be13"
+          }
+        },
+        {
+          "client_id": "831607636169-njn85r5qh34t40vohls3p31khttcvl2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvxGp6V7S7z3kK4DHCMjs_PVNZjSPVqRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831607636169-njn85r5qh34t40vohls3p31khttcvl2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831607636169:android:cb6e3bd5ad31c677",
+        "android_client_info": {
+          "package_name": "com.tc2r.fiveNights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831607636169-fvomu7k5euf7j4uc4tl1r76slkiotgqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tc2r.fiveNights",
+            "certificate_hash": "aba676faf519ca8d7a1878127c1d73aef203be13"
+          }
+        },
+        {
+          "client_id": "831607636169-njn85r5qh34t40vohls3p31khttcvl2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvxGp6V7S7z3kK4DHCMjs_PVNZjSPVqRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831607636169-njn85r5qh34t40vohls3p31khttcvl2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
